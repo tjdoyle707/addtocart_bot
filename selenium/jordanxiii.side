@@ -1,0 +1,123 @@
+{
+  "id": "47fd0819-ff9d-4883-b1a7-4073ba5c6ced",
+  "version": "2.0",
+  "name": "jordanxiii",
+  "url": "https://www.nike.com",
+  "tests": [{
+    "id": "806f58f4-67bd-40f8-a400-dda6febf0064",
+    "name": "addtocart",
+    "commands": [{
+      "id": "a614e832-0149-4780-9938-7cda6e8a2ec5",
+      "comment": "",
+      "command": "open",
+      "target": "/launch/t/air-jordan-13-playoffs",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71e7b31e-30eb-4ace-bd28-2d1b42341d3c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1292x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8169e3d5-5cc5-488c-8d6d-beb0f46c5459",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,39)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fafb750-2f2c-46f3-a2ca-55cc80a9e6bd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,532)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a0561aa-7fc7-4b03-90a7-1db12291eea9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.size:nth-child(23) > .size-grid-dropdown",
+      "targets": [
+        ["css=.size:nth-child(23) > .size-grid-dropdown", "css:finder"],
+        ["xpath=(//button[@type='button'])[26]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[2]/div/section/div[2]/aside/div/div[2]/div/div[2]/ul/li[23]/button", "xpath:idRelative"],
+        ["xpath=//li[23]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'M 16 / W 17.5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e45050bb-75f4-4101-9998-cf635ee932ff",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,966)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca8e3c4d-23d8-41bf-8915-944182f83de0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buying-tools-container:nth-child(2) .ncss-btn-primary-dark",
+      "targets": [
+        ["css=.buying-tools-container:nth-child(2) .ncss-btn-primary-dark", "css:finder"],
+        ["xpath=(//button[@type='button'])[29]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[2]/div/section/div[2]/aside/div/div[2]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy $210.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4da86e83-9da0-45dc-b565-64db3d7cbaed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ncss-btn-secondary-dark",
+      "targets": [
+        ["css=.ncss-btn-secondary-dark", "css:finder"],
+        ["xpath=(//button[@type='button'])[68]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'view cart (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33139b49-b923-4fe2-822b-f1adb416c12c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Terms of Use",
+      "targets": [
+        ["linkText=Terms of Use", "linkText"],
+        ["css=.ml3-md:nth-child(3) > .sub-footer-menu-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Terms of Use')])[2]", "xpath:link"],
+        ["xpath=//div[@id='gen-nav-footer']/div/footer/div/div[2]/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://agreementservice.svs.nike.com/us/en_us/rest/agreement?agreementType=termsOfUse&uxId=com.nike.commerce.nikedotcom.web&country=US&language=en&requestType=redirect')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fbcd247-1bd3-44d7-8275-00513247c90c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Terms of Use",
+      "targets": [
+        ["linkText=Terms of Use", "linkText"],
+        ["css=.ml3-md:nth-child(3) > .sub-footer-menu-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Terms of Use')])[2]", "xpath:link"],
+        ["xpath=//div[@id='gen-nav-footer']/div/footer/div/div[2]/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://agreementservice.svs.nike.com/us/en_us/rest/agreement?agreementType=termsOfUse&uxId=com.nike.commerce.nikedotcom.web&country=US&language=en&requestType=redirect')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0ff11e0d-635f-49fc-a3cf-84c134bb6056",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["806f58f4-67bd-40f8-a400-dda6febf0064"]
+  }],
+  "urls": ["https://www.nike.com/"],
+  "plugins": []
+}
