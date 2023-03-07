@@ -1,4 +1,4 @@
-from selenium import webdriver
+from seleniumwire import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -16,6 +16,9 @@ sign_in=driver.find_element(By.XPATH, '//*[@id="gen-nav-commerce-header-v2"]/div
 sign_in.click()
 #sign_in.send_keys("tjdoyle707@gmail.com")
 #sign_in.send_keys(Keys.RETURN)
+
+for i in driver.requests:
+    print(i.method)
 
 
 #//*[@id="hf_title_signin_membership"] 
